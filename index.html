@@ -6,151 +6,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="src/styles.css" />
-     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Document</title>
 </head>
 <body>
    
-     <!-- main container div  -->
-    <div class="main-container">
- <!-- main container div  -->
+  <!-- main container div  -->
+ <div class="main-container">
+<!-- main container div  -->
 
- <!-- saying or icon , search city form  -->
+<!-- saying or icon , search city form  -->
 <div class="container-2">
 <div class="row">
-  <div class="col">
- <h1 id="citySearch"><img src="images/purple.svg" width="50"/> 
-  Ft.Lauderdale </h1>
-  </div>
-
-
-  <!--search city form  -->
-   <div class="col">
-            <form id="searchCityForm">
-               <div class="row search-section">
-                <div class="col-7">
-                  <input 
-                  type="text" 
-                  class="form-control" 
-                  placeholder="Enter your city"
-                  autocomplete="off"
-                  autofocus = "on"
-                  id="searchCity-input" />       
-                </div>
-                <div class="col-2">
-                <button type="submit" 
-                          class="btn btn-info"
-                          id="submitButton">
-                  Search
-                 </button>
-               </div>
-<!-- saying or icon , search city form  -->
-    </div>
- </div>
- <!-- saying or icon , search city form  -->
-<br/>
  
+<div class="col">
+
+<h1 id="citySearch">
+<img src="images/purple.svg" width="50"/> Ft.Lauderdale </h1>
+</div>
+
+
+<!--search city form  --> 
+<div class="col">
+ 
+         <form id="searchCityForm">
+            <div class="row search-section">
+             <div class="col-7">
+               <input 
+               type="text" 
+               class="form-control" 
+               placeholder="Enter your city"
+               autocomplete="off"
+               autofocus = "on"
+               id="searchCity-input" />       
+             </div>
+            
+             <div class="col-2">
+             <button type="submit" 
+                       class="btn btn-info"
+                       id="submitButton">
+               Search
+              </button>
+
+            </div>
+<!-- saying or icon , search city form  -->
+ </div>
+                 
+</div>
+<!-- saying or icon , search city form  -->
+<br/>
+
 <!--todays current weather, date and time  -->
- <div class="container-2">
+<div class="container-2">
 <div class="row">
-  <div class="col">
+<div class="col">
 
 <div class="card text-white bg-dark mb-3" style="max-width: 24rem;">
-  <div class="card-header">
- Weather
-  </div>
-    
-  <div class="card-body">
-     <h2> SUNNY </h2>
-    <h5 class="card-title"> </5>
-       <h5>
-           <h6>
-     <strong id="temp"> 79<small>º</small> </strong>
-           </h6>
-    
-   <span id=current-temperature></span>&deg;<span id="celsius-icon">C</span>⎥<span id="fahrenheit-icon">F</span></h6>
-          
+
+<div class="card-header"> 
+<span class="col-5"> <button type="button" class="btn btn-secondary" id="current-city-btn">Check Your Current City</button></span>
+</div>
+ 
+<div class="card-body">
+ 
+ <h2> SUNNY </h2>
+ <h5 class="card-title"> </5>
+    <h5>
+        <h6>
+  <strong id="temp"> 79<small>º</small> </strong>
+        </h6>
+ 
+<span id=current-temperature></span>&deg;<span id="celsius-icon">C</span>⎥<span id="fahrenheit-icon">F</span></h6>
+       
 </div>
 </div>
-  </div>
+</div>
 
 
-    <div class="col">
-      
-        <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
-  <div class="card-header">  </div>
-  <div class="card-body">
-<h3>Friday, 1:30</h3>
-    <p class="card-text"> <h4> </h4> 
-    <img src="images/solar-cell.svg" width="200"/> 
-  </div>
+ <div class="col">
+   
+     <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+<div class="card-header">  </div>
+<div class="card-body">
+ 
+
+
+
+ 
+<div class="card-header"> 
+
+ <h3>Friday, 1:30</h3>
+ <p class="card-text"> <h4> </h4> 
+ <img src="images/solar-cell.svg" width="200"/> 
 </div>
-    </div>
+</div>
  </div>
- <!--todays current weather, date and time  -->
+</div>
+<!--todays current weather, date and time  -->
 
 <!-- 5 days of the week weather  -->
 <div class="container-3">
-  <div class="row">
-    <div class="col">
-    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-  <div class="card-header">Monday</div>
-  <div class="card-body">
-       <img src="images/rainstorm.png" width="60"/>
-    <h5 class="card-title"></h5>
-    <p class="card-text">81º</p> 
-  </div>
+<div class="row">
+ <div class="col">
+ <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+<div class="card-header">Monday</div>
+<div class="card-body">
+    <img src="images/rainstorm.png" width="60"/>
+ <h5 class="card-title"></h5>
+ <p class="card-text">81º</p> 
 </div>
-    </div>
-    <div class="col">
-      <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-  <div class="card-header">Tuesday</div>
-  <div class="card-body">
-           <img src="images/rainshower.png" width="60"/>
-    <h5 class="card-title"></h5>
-    <p class="card-text">83º</p>
-  </div>
 </div>
-    </div>
-    <div class="col">
-      <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-  <div class="card-header">Wednesday</div>
-        <div class="card-body">
-  <img src="images/cloud.png" width="60"/>
-    <h5 class="card-title"></h5>
-    <p class="card-text">87º</p>
-  </div>
+ </div>
+ <div class="col">
+   <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+<div class="card-header">Tuesday</div>
+<div class="card-body">
+        <img src="images/rainshower.png" width="60"/>
+ <h5 class="card-title"></h5>
+ <p class="card-text">83º</p>
 </div>
-    </div>
-    <div class="col">
-      <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-  <div class="card-header">Thursday</div>
-    <div class="card-body">
-       <img src="images/rainy-day.png" width="60"/>
-    <h5 class="card-title"></h5>
-    <p class="card-text">92º</p>
-  </div>
 </div>
-    </div>
-    <div class="col">
-      <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-  <div class="card-header">Friday</div>
-  <div class="card-body">
-     <img src="images/sunny.png" width="60"/>
-    <h5 class="card-title"></h5>
-    <p class="card-text">95º</p>
-  </div>
+ </div>
+ <div class="col">
+   <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+<div class="card-header">Wednesday</div>
+     <div class="card-body">
+<img src="images/cloud.png" width="60"/>
+ <h5 class="card-title"></h5>
+ <p class="card-text">87º</p>
+</div>
+</div>
+ </div>
+ <div class="col">
+   <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+<div class="card-header">Thursday</div>
+ <div class="card-body">
+    <img src="images/rainy-day.png" width="60"/>
+ <h5 class="card-title"></h5>
+ <p class="card-text">92º</p>
+</div>
+</div>
+ </div>
+ <div class="col">
+   <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+<div class="card-header">Friday</div>
+<div class="card-body">
+  <img src="images/sunny.png" width="60"/>
+ <h5 class="card-title"></h5>
+ <p class="card-text">95º</p>
+</div>
 </div>
 
 
-    </div>
-  </div>
+ </div>
+</div>
 </div>
 <!-- 5 days of the week weather  -->
 
 <!-- main container div  -->
-    </div>
-    <!-- main container div  -->
+ </div>
+ <!-- main container div  -->
 
 <script src="src/index.js"></script>    
 </body>
