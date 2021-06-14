@@ -33,6 +33,23 @@ h6 {
     color: wheat;
 }
 
+footer {
+    color: whitesmoke;
+    cursor: default;
+    opacity: 90%;
+    font-size: 13px;
+    text-align: center;
+}
+
+.githubLink {
+    color: rgb(46, 154, 222);
+}
+
+.githubLink:hover {
+color: rgb(184, 224, 249);
+transition: all 200ms ease-in-out;
+text-decoration: underline;
+}
 
 
 #current-city-btn {
