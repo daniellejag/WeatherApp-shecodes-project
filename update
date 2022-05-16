@@ -1,0 +1,640 @@
+---index.html-----
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="FrontEnd Coding Projects by Danielle Jagendorf" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZNVWRD0ZRS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZNVWRD0ZRS');
+</script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" 
+    />
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+   <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous">
+  </script>
+<script src="https://kit.fontawesome.com/d6fa02203a.js" crossorigin="anonymous"></script>
+    <title>Danielle Jagendorf</title>
+  </head>
+
+  <body class="homepage">
+   
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ps-6 pe-6">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Danielle Jagendorf</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" title="learn more about me">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html#contact" title="get my contact information">Contact me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
+
+    </nav>
+          
+
+    <div class="introduction">
+    <h2 id="intro"><span class="material-symbols-outlined">
+waving_hand
+</span> Hi I am</h2>
+    <h1>Danielle Jagendorf</h1>
+    <h3>Front-end developer, based in the United States</h3>
+      
+    <div class="navigation-links">
+      <a href="about.html#contact" class="contact-link d-block" title="get my contact information">Contact me</a>
+      <a href="about.html" class="about-link d-block" title="learn more about me">About me</a>
+    </div>
+  </div>
+<div class="projects">
+<div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class=col-md-6 mb-3>
+          <img src="images/spacepage.png" alt="a girl standing in a yoga pose" class="img-fluid rounded p-2"/></div>
+
+          <div class=col-md-6 mb-3>
+          <p>
+            <strong>Space Page</strong>
+          </br>
+          Responsive Webpage made with HTML, CSS, and Bootstrap with VS Code
+           <div class="app-links">
+           <a href="https://legendary-croissant-3d0165.netlify.app/"  target=”_blank” title="learn about the planets in our solar system" class="yoga-link">Launch Space Page</a>
+           </div>
+          </p>
+        </div>
+        </div>
+      
+        <div class="row">
+         <div class=col-md-6 mb-3>
+          <p>
+            <strong>Weather app</strong>
+          </br>
+Web application made with HTML, CSS, JavaScript, and APIs with VS Code, GitHub, Bootstrap, and Netlify for hosting.
+   <div class="app-links">
+           <a href="#intro" title="view a weather app" class="weather-link">Launch Weather App</a>
+           </div>
+          </p>
+        </div>
+        <div class=col-md-6 mb-3>
+          <img src="images/weatherapp1.png" width="900px" alt="five day weather forecast" class="img-fluid rounded p-2"/> </div>
+        </div>
+
+        <div class="row">
+         <div class=col-md-6 mb-3>
+          <img src="images/weatherwidget1.png" alt="view solar widget mockup" class="img-fluid rounded p-2"/>  </div>
+        <div class=col-md-6 mb-3>
+          <p>
+            <strong>Solar Widget</strong>
+          </br>
+        A widget mockup made with HTML, CSS, and JavaScript with VS Code. 
+          <div class="app-links">
+           <a href="#intro" title="view solar widget mockup" class="yogurt-link">Launch Solar Widget</a>
+           </div>
+        </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container-fluid g-0">
+ 
+<footer>
+<a href="https://github.com/daniellejag" id="homepagefooter" target=”_blank” title="github">
+<i class="fa-brands fa-github"></i></a>
+<a href="www.linkedin.com/in/daniellejagendorf" id="homepagefooter" target=”_blank” title="linkedin">
+<i class="fa-brands fa-linkedin"></i></a>
+<a href="https://www.instagram.com/danimaxinee" id="homepagefooter" target=”_blank” title="instagram">
+<i class="fa-brands fa-instagram"></i></a>
+<a href="https://www.facebook.com/dani.jay.18"  id="homepagefooter" target=”_blank” title="facebook">
+<i class="fa-brands fa-facebook"></i></a>
+  <a href="mailto:jagendorf.danielle@gmail.com" id="homepagefooter" title="email"> 
+<i class="fa-solid fa-paper-plane"></i></a>
+
+<a href="https://github.com/daniellejag/mypage" class="git-repo" target=”_blank” title="Github Repository"> Open Source Code by Danielle Jagendorf</a>
+
+</footer>
+</div>
+
+
+  </body>
+</html>
+
+---index.html-----
+
+------about.html-----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Frontend Developer from Florida, learn more about me!" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZNVWRD0ZRS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZNVWRD0ZRS');
+</script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/d6fa02203a.js" crossorigin="anonymous"></script>
+    <title>About Danielle Jagendorf </title>
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ps-6 pe-6">
+      <div class="container-fluid">
+  
+   
+    <a class="navbar-brand" href="index.html">Danielle Jagendorf</a> 
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+ 
+
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+         
+          <a class="nav-link" href="index.html" title="return back to the homepage">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="about.html" title="learn more about me">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+    </nav>
+  
+    
+      <div class="aboutintroduction">
+         
+      <h1>About me</h1>
+      <h3>Front-end developer from Fort Lauderdale, Florida</h3>
+      <div class="about-paragraphs">
+        <p=>
+ Experienced with HTML, CSS, Javascript, Visual Studio Code Editor, API, Bootstrap, GitHub, Hosting, React, Flexbox, SEO, and Responsive.
+        </p>
+      </div>
+    </div>
+  </div>
+       <div class="aboutpage">
+      <div class="container">
+      
+      <div class="row">
+        <div class=col-sm-4 mb-3>
+          <img src="images/weatherapp1.png"  alt="five day weather forecasr" class="img-fluid  shadow-sm p-1 border"/>
+        </div>
+         <div class=col-sm-4 mb-3>
+          <img src="images/aboutwidget.png" alt="weather forecast template" class="img-fluid shadow-sm p-1 border"/>
+        </div>
+         <div class=col-sm-4 mb-3>
+          <img src="images/spacepage.png" alt="planets information" class="img-fluid  shadow-sm p-1 border"/>
+        </div>
+      </div>
+    </div>
+      >
+    </div>
+<div id="contact">
+        <h2> Contact me</h2>
+        <a href="#" title="email to contact me" id="aboutcontact" class="contact-link">
+        </a>
+      </div
+
+
+<div class="container-fluid g-0">
+
+<footer>
+   <span id="aboutpagefooter">
+<a href="https://github.com/daniellejag" target=”_blank” id="aboutfooter" title="github">
+<i class="fa-brands fa-github"></i></a>
+<a href="www.linkedin.com/in/daniellejagendorf" id="aboutfooter"  target=”_blank”  title="linkedin">
+<i class="fa-brands fa-linkedin"></i></a>
+<a href="https://www.instagram.com/danimaxinee" id="aboutfooter"  target=”_blank” title="instagram">
+<i class="fa-brands fa-instagram"></i></a>
+<a href="https://www.facebook.com/dani.jay.18" id="aboutfooter" target=”_blank” title="facebook">
+<i class="fa-brands fa-facebook"></i></a>
+<a href="mailto:jagendorf.danielle@gmail.com" id="aboutfooter" title="email"> 
+<i class="fa-solid fa-paper-plane"></i></a>
+
+ <a href="mailto:jagendorf.danielle@gmail.com" title="email to contact me" id="a" class="email"> jagendorf.danielle@gmail.com </a>
+<a href="https://github.com/daniellejag/mypage" class="git-repo" target=”_blank” title="Github Repository"> Open Source Code by Danielle Jagendorf</a>
+
+</footer>
+</div>
+
+  </body>
+</html>
+
+----about.html------
+
+
+-----style.css-------
+
+:root {
+  --primary-color: rgb(172, 177, 191);
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+body {
+overflow-x: hidden;
+overscroll-behavior-y: none; 
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0 auto;
+  color: black;
+  font-weight: 600;
+}
+
+
+
+h1 {
+  font-size: 7em;
+}
+
+h2 {
+  font-size: 38px;
+  padding-top: 100px;
+}
+
+h3 {
+  font-size: 33px;
+}
+
+strong {
+  font-size: 48px;
+  font-weight: 500;
+  color: rgb(38, 44, 65);
+}
+
+p {
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  font-size: 38px;
+  line-height: 1.5;
+  text-align: inline;
+  color: rgb(77, 89, 129);
+  font-weight: 500;
+}
+
+img {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  background-color: rgba(76, 91, 130, 0.4);
+}
+
+.img-fluid {
+  border-radius: 30px !important;
+}
+
+footer {
+width: 100%;
+height: 300px;
+margin: 0;
+text-align: center;
+background: #161922;
+overscroll-behavior: none;
+}
+
+
+
+#homepagefooter{
+  color: 	#28282B;
+  font-size: 40px;
+  position: relative;
+  top: 40%;
+  padding: 13px;
+}
+
+
+#homepagefooter:hover {
+transition: all 200ms ease-in-out;
+color:#a2b8ce;
+font-size: 50px;
+}
+
+
+
+
+#aboutfooter {
+  color:white;
+  font-size: 7em;
+  position: relative;
+  top: -3%;
+  overflow: hidden;
+  justify-content: space-between;
+  margin: 17px;
+}
+
+#aboutfooter:hover{
+transition: all 400ms ease-in-out;
+font-size: 10em;
+}
+
+
+.fa-github:hover {
+color: #2DA042;
+}
+
+.fa-linkedin:hover {
+ color: #0A65C2
+}
+
+.fa-instagram:hover {
+background: #121FCF;
+background: linear-gradient(to right, #d1ab13 0%, #882a4e 49%, #a92b55db 65%, #541a4c 100%);
+
+-webkit-text-fill-color: transparent;
+}
+
+.fa-facebook:hover {
+color:#315A94
+}
+
+.fa-paper-plane:hover {
+color: #af1a0d;
+}
+
+.email {
+  display: block;
+  text-decoration: none;
+  color: rgb(89, 109, 127);
+  opacity: 0.8;
+  background-color: #161922;
+  margin-top: 60px;
+  
+}
+
+
+
+.git-repo {
+  display: block;
+  text-decoration: none;
+  color: rgb(89, 109, 127);
+  opacity: 0.8;
+  background-color: #161922;
+}
+
+.git-repo:hover,
+.email:hover {
+  transition: all 200ms ease-in-out;
+  color: #93a5cf;
+}
+
+.header {
+background-image: linear-gradient(to bottom, #7f8e9a, #919fab, #a2b0bc, #b5c1cd, #C8D6E0);
+}
+
+  
+.homepage {
+background: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+}
+
+
+.introduction {
+background: url(images/bluecomputer3.jpeg) center no-repeat;
+width: 100%;
+overflow: hidden;
+height: 750px;
+filter: brightness(1.30);
+background-size: cover;
+
+}
+
+.aboutpage {
+background: url(images/codedrawing1.jpeg) center no-repeat;
+height: 500px;
+}
+
+
+.aboutpage img {
+border-radius: 0 !important;
+border: 2px solid #161922 !important;
+background: black;
+box-shadow: 11px 19px 20px rgba(0, 0, 0, 0.4) !important;
+}
+
+.aboutintroduction {
+width: 100%;
+padding: 20px;
+overflow: hidden;
+background-size: cover;
+margin-bottom: -60px;
+}
+
+.projects {
+margin-top: 100px;
+}
+
+#intro {
+  text-align: center;
+}
+
+.about-paragraphs {
+  text-align: center;
+  color: black;
+  display: flex;
+  font-weight: 800;
+  padding: 40px;
+  margin: 30px;
+  font-size:30px;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 40px 50px;
+  padding: 15px 50px 15px 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+
+.contact-link,
+.about-link {
+transition: all 200ms ease-in-out;
+background-color: rgba(191, 189, 195, 0.134);
+color: #161922;
+}
+
+
+.contact-link:hover,
+.about-link:hover {
+transition: all 200ms ease-in-out;
+background-color: rgba(191, 189, 195, 0.393);
+color: #161922;
+}
+
+ #aboutcontact {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  text-decoration: none;
+  color: #8FC3D2;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-weight: 600;
+  margin: 0 234px 0 234px;;
+  padding: 10px;
+}
+
+#aboutcontact:hover {
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  font-weight: 600;
+  color: #c7f5ff;
+}
+
+.app-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.yoga-link,
+.weather-link,
+.yogurt-link,
+.contact-link,
+.about-link {
+background : #161922;
+box-shadow: var(--box-shadow);
+color: white;
+}
+
+.yoga-link:hover,
+.weather-link:hover,
+.yogurt-link:hover {
+transition: all 200ms ease-in-out;
+opacity: 90%;
+background-color: rgba(191, 189, 195, 0.134);
+color: #161922;
+border: 3px solid #161922;
+}
+
+
+
+#contact {
+padding: 20px;
+background: #161922;
+}
+
+#contact h2 {
+padding: 5px;
+color: white;
+margin: 0px 234px 0px 234px;
+font-size: 40px;
+
+}
+ 
+
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+}
+
+h3, h2 {
+  font-size: 15px;
+}
+
+h1 {
+font-size: 68px;
+}
+
+
+img {
+  display: none;
+}
+
+p {
+  margin: 10px 10px 30px 5px;
+}
+
+.app-links a {
+padding: 20px 50px 20px 50px;
+margin: 50px 20px;
+font-size: 17px;
+}
+
+
+.navigation-links {
+font-size: 17px;
+}
+}
+
+----style.css-------
+
+
+
+
