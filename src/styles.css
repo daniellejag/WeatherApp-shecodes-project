@@ -1,13 +1,15 @@
 body {
-    margin: 25px;
-    background-color: #bdcad9;
+    margin: 65px;
+ background: linear-gradient(178.3deg, rgb(188, 251, 255) 11.5%, rgb(255, 253, 14) 103.1%);
+overflow: hidden;
 }
 
 h1,
 h2,
 h3 {
-    color: whitesmoke;
+    color: rgb(251, 251, 251);
     font-size: 30px;
+   margin-bottom: 25px;
 }
 
 h1 {
@@ -20,6 +22,23 @@ h6 {
     font-size: 50px;
 }
 
+
+
+h4 {
+font-size: 30px;
+}
+
+small {
+  opacity: 0.3;
+}
+
+h2 {
+  font-size: 50px !important;
+}
+
+
+
+
 button {
     border: 0.1 solid black;
     position: justify;
@@ -30,7 +49,7 @@ button {
 h6 {
     font-size: 90px;
     margin-left: 8px;
-    color: wheat;
+    color: #ffff;
 }
 
 footer {
@@ -55,7 +74,6 @@ text-decoration: underline;
 #current-city-btn {
     margin: 10px;
     padding: 5px 60px;
-    display: block;
     height: 30px;
     border: transparent;
     background: transparent;
